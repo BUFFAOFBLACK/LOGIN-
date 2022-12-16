@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   
+    <title>LOGIN </title>
+</head>
+<body>
+    <!-- login -->
+   <center><div class="main-login" style="color:rgb(248, 244, 244);">
+        <div class="textfield">
+            <hgroup>
+            <h1 >INICIO DE SESION </h1>
+           </hgroup>
+        </div>
+        <form name="login" action="login/validar.php" method="post">
+        <div class="righ-login">
+            <div class="card-login">
+                <div class="textfield">
+                <label for="Usuario "><h2 style="color:rgb(248, 244, 244);">Usuario</h2>   </label><br />
+                <input type="text" name="Usuario" placeholder="Ingrese Usuario" required>
+              </div> 
+              <div class="textfield">
+                <label for="Contraseña "><h2 style="color:rgb(248, 244, 244);">Contraseña</h2> </label><br />
+                <input type="password" name="Contraseña" placeholder="Ingrese Contraseña" required>
+              </div> 
+               <input class="btn-login" type="submit" value="Ingresar"> 
+               <button type="button" onclick=" location.href='registro/registro.php' " class="btn-login">Registrarse</button>
+            </div>
+        </div>
+    </div>
+</form>
+</center>
+
+</body>
+</html>
